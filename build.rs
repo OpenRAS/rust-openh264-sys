@@ -532,8 +532,8 @@ fn download_library(out_dir_path: &Path, full_version: &str, major_version: &str
 }
 
 fn find_or_build_library(out_dir_path: &Path) -> Library {
-    let full_version = "1.7.0";
-    let major_version = "4";
+    let full_version = "2.1.1";
+    let major_version = "6";
     let dynamic = if cfg!(feature = "static") {
         Some(false)
     } else {
